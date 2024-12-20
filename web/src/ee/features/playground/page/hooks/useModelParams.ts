@@ -131,7 +131,7 @@ function getDefaultAdapterParams(
         temperature: { value: 0, enabled: true },
         maxTemperature: { value: 2, enabled: true },
         max_tokens: { value: 256, enabled: true },
-        top_p: { value: 1, enabled: true },
+        top_p: { value: 0.5, enabled: true },
       };
 
     case LLMAdapter.Azure:
